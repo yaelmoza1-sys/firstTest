@@ -1,0 +1,144 @@
+body{
+    width:100%;
+    /* position: relative; */
+
+  background-color: #76a6f3; /* צבע בסיס */
+  background-image: 
+    radial-gradient(circle at 20% 30%, #f17bb6 0%, transparent 40%),
+    radial-gradient(circle at 70% 30%, #9c75f7 0%, transparent 50%),
+    radial-gradient(circle at 40% 70%, #25f7b1 0%, transparent 45%),
+    radial-gradient(circle at 70% 80%, #f1ac35 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, #ef5c5c 0%, transparent 60%);
+  background-blend-mode: screen; /* ממזג את הצבעים בצורה חלקה וזוהרת */
+  height: 100vh;
+}
+.AILogo {
+    width: 25px;
+    height: 25px;
+    top: -15px;
+  }
+  #gpt {
+    position: absolute;
+    left: 30px;
+    top: 0px;
+  }
+  
+  #help {
+    position: absolute;
+    right: 20px;
+  }
+  #LogIn {
+    position: absolute;
+    right: 160px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+  }
+  #SignUp {
+    position: absolute;
+    right: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+  }
+  
+  
+  
+  #title{
+    position: relative;
+    left: 18%;
+    width: 920px;
+  }
+  #In_title{
+    position: absolute;
+    width: 920px;
+  }
+  .btn{
+    border-radius: 50%;
+    border: 0.5px solid rgb(219, 216, 216);
+    position: absolute;
+  }
+  
+  h3{
+    top: 20%;
+  }
+  
+  #right1{
+    background-color: white;
+    top: 20%;
+    right: 2%;
+  }
+ 
+  #left1{
+    color: rgb(219, 216, 216) ;
+    top: 20%;
+    right: 5%;
+ }
+
+/* תמונות גדולות */
+ 
+.big_img img{
+  width: 120px;
+  height: 160px;
+  border-radius: 13%;
+ }
+ .big_img figure{
+  color: rgb(117, 116, 116);
+ }
+
+ .big_img{
+  width: 1000px;
+  /* border: 1px solid rebeccapurple; */
+  margin-left: 18%;
+ }
+
+ #img1 ,#img2 ,#img3, #img4, #img5, #img6 {
+  display: inline-block;
+  vertical-align: top;   
+  margin-top: 60px;
+  /* width: 150px; */
+  margin-right: 10px;    
+  text-align: center;
+ }
+ 
+ #In_title2{
+  position: absolute;
+  width: 920px;
+  left: 18%;
+  top: 400px;
+
+}
+
+ /* תמונות קטנות */
+
+.small_img img{
+  width: 50px;
+  height: 60px;
+  border-radius: 10%;
+  color: gray;
+  margin-bottom: 5px;
+
+}
+
+#left_img, #right_img {
+  display: inline-block;
+  vertical-align: top;   
+  margin-top: 40px;
+  margin-left: 18%;    
+ }
+
+ .small_img img {
+  border-radius: 10px;
+  width: 50px;
+  height: 60px;
+  vertical-align: middle;
+}
+.small_img span{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12px;
+  font-size: 14px;
+  color: rgb(117, 116, 116);
+}

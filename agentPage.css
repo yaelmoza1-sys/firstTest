@@ -1,0 +1,105 @@
+body{
+    /* position: relative; */
+}
+.AILogo {
+    width: 25px;
+    height: 25px;
+    top: -15px;
+  }
+  #gpt {
+    position: absolute;
+    left: 30px;
+    top: 0px;
+  }
+  
+  #help {
+    position: absolute;
+    right: 20px;
+  }
+  #LogIn {
+    position: absolute;
+    right: 160px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+  }
+  #SignUp {
+    position: absolute;
+    right: 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+  }
+
+  .main-nav{
+    position: relative;
+  }
+    .main-nav ul {
+      background-color: white;
+      position: absolute;
+      left: 30%;
+    }
+    
+    .main-nav li  {
+      display: block;
+      color: black;
+      float: left;
+      padding: 10px;
+      text-align: center;
+      
+    }
+  
+  /*  */
+  section{
+    position: absolute;
+    top: 17%;
+    width: 70%;
+    height: 65%;
+    left:15%;
+  }
+  #text{
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 49%;
+    height: 100%;
+    padding: 8%;
+  }
+  #text span{
+    color: rgb(155, 153, 153);
+  }
+  
+  #imgs{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 49%;
+    height: 100%;
+    right: 0%;
+    border-radius: 20px;
+
+    background-color: #94c3f9;
+    background-image: 
+    radial-gradient(circle at 90% 10%, rgba(147, 112, 219, 0.6) 0%, transparent 80%),
+    radial-gradient(circle at 85% 85%, rgba(26, 86, 240, 0.8) 0%, transparent 35%),
+    radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.4) 0%, transparent 65%),
+    radial-gradient(circle at 15% 80%, rgba(90, 160, 255, 0.7) 0%, transparent 40%);
+  }
+  #inText{
+    /* border: 1px solid black; */
+    margin-top: 30%;
+    height: 30%;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  #text button{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+  }
